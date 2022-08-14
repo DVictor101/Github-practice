@@ -1,0 +1,1662 @@
+/*
+html5doctor.comResetStylesheet
+v1.6.1
+LastUpdated:2010-09-17
+Author:RichardClark-http://richclarkdesign.com
+Twitter:@rich_clark
+*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+navul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+/*changecolourstosuityourneeds*/
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+/*changecolourstosuityourneeds*/
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1pxdotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*changebordercolourtosuityourneeds*/
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1pxsolid#cccccc;
+  margin: 1em0;
+  padding: 0;
+}
+input,
+select {
+  vertical-align: middle;
+}
+/* Real stling starts here*/
+body {
+  width: 100%;
+  height: 100%;
+}
+/* nav styling*/
+.regulatorDiv {
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background-color: rgb(185, 197, 206, 0.5);
+  position: absolute;
+}
+
+.Renewedcrown__nav {
+  height: 3em;
+
+  display: flex;
+  flex-direction: column;
+}
+.Renewedcrown__navheadtwo {
+  margin-left: 0.5em;
+  font-size: 2em;
+  font-family: Riffic, serif;
+  color: rgba(31, 2, 8, 0.933);
+  margin-top: 0.4em;
+}
+.headerhid {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2em;
+  margin-top: -1.7em;
+  width: 30px;
+  align-self: flex-end;
+}
+.headerdivbutton {
+  border: none;
+  margin-top: 6px;
+  color: rgba(31, 2, 8, 0.933);
+  background-color: rgb(46, 44, 44);
+  height: 1px;
+}
+/*THE MENU TAB SECTION STYLING*/
+.menutab {
+  position: absolute;
+  margin-left: 55%;
+
+  float: right;
+  width: 50%;
+  height: 70vh;
+  z-index: 20;
+  list-style-type: none;
+  background-color: rgb(49, 14, 45);
+}
+.asideul {
+  list-style-type: none;
+}
+.asideli {
+  line-height: 90px;
+  color: rgb(214, 125, 9);
+  text-indent: 10px;
+  font-size: 1.5em;
+}
+/* header styling starts here*/
+header {
+  height: 110vh;
+  position: relative;
+}
+.Renewedcrown__leaderwebsitedesign--headerdiv {
+  width: 100%;
+  height: 100vh;
+  background-image: url(Assets/daniel-korpai-mxPiMiz7KCo-unsplash.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Renewedcrown__leaderwebsitedesign--headerp {
+  color: rgb(250, 6, 6);
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: 800;
+  margin-top: -5em;
+}
+.Renewedcrown__leaderwebsitedesign--headerhone {
+  font-size: 2.5em;
+  width: 80%;
+  text-align: center;
+  color: rgb(250, 6, 6);
+}
+.Renewedcrown__leaderwebsitedesign--headerptwo {
+  margin-top: 3em;
+  width: 60%;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: rgb(250, 6, 6);
+}
+.Renewedcrown__leaderwebsitedesign--headerbutton {
+  margin-top: 20px;
+  width: 9em;
+  height: 3em;
+  background-color: rgba(238, 158, 9, 0.933);
+  border: none;
+}
+.sticky {
+  position: fixed;
+}
+
+/*the form styling starts here*/
+.totalSection {
+  width: 25em;
+  margin: 0 auto;
+  height: 32em;
+  position: absolute;
+  margin-top: 3em;
+  margin-left: 3em;
+  z-index: 10;
+}
+.formsection__One {
+  width: 25em;
+  background-color: rgb(49, 14, 45);
+  margin: 0 auto;
+  height: 30em;
+  position: relative;
+
+  border-radius: 20px;
+  border: none;
+}
+.formsection__Onediv {
+  position: absolute;
+}
+.formsection__Oneform {
+  display: flex;
+  flex-direction: column;
+}
+.formsection__Onedivtwo {
+  position: absolute;
+}
+.formsectionlabel {
+  font-size: 1.5em;
+  color: rgb(214, 125, 9);
+  margin-top: 5px;
+}
+.formsectionlabeltwo {
+  margin-top: -10px;
+}
+.formsectionlabelinput {
+  height: 2.5em;
+  border-radius: 10px;
+  margin-top: -5px;
+  border: 2px solid rgb(214, 125, 9);
+}
+.formsection__Onedivtwohidden {
+  display: none;
+}
+.formSection__Interest {
+  font-family: sans-serif;
+  color: rgb(214, 125, 9);
+}
+.interestDiv {
+  margin-top: 10px;
+}
+.optioninput {
+  color: rgb(214, 125, 9);
+}
+.formP {
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+.formP a {
+  text-decoration: none;
+  color: black;
+}
+.signupandlogin__section {
+  margin-top: o.5em;
+}
+.signup__button,
+.signin__button {
+  width: 120px;
+  height: 45px;
+  color: rgb(49, 14, 45);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(248, 201, 10);
+  border-right: 2px groove rgb(235, 181, 5);
+  border-left: 2px solid rgb(3, 209, 38);
+  border-top: 2px dotted rgb(5, 235, 155);
+  border-bottom: 2px double rgb(235, 5, 132);
+  outline: none;
+}
+/*the sign in content styling is here*/
+.formsection__Onedivtwo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.signin__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+}
+.signin__sectionemail {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(214, 125, 9);
+}
+.formtwocontent {
+  margin-top: 40px;
+}
+.formsectionlabelinputtwo {
+  height: 3em;
+  width: 20em;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-top: -5px;
+  border: 2px solid rgb(214, 125, 9);
+}
+.signin__button--two {
+  margin-top: 40px;
+  background-color: rgb(49, 14, 45);
+  color: rgb(214, 125, 9);
+}
+.goback,
+.formP {
+  color: rgb(214, 125, 9);
+  margin-left: 2.4em;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.gobackhere,
+.formPspan {
+  text-decoration: underline;
+  color: rgb(214, 125, 9);
+  cursor: pointer;
+}
+.formpspantwo {
+  margin-left: 0;
+}
+/* sectiontwo styling starts here*/
+.renewed__sectiontwo {
+  height: 15em;
+
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  align-items: center;
+  transform: translateY(0);
+  transition: opacity 800ms, transform 800ms;
+}
+.transitstyle {
+  transform: translateY(5rem);
+  opacity: 0;
+}
+.renewed__sectiontwoh3 {
+  font-size: 3em;
+}
+.renewed__sectiontwoh3 {
+  color: red;
+  font-weight: 500;
+  width: 80%;
+  text-align: center;
+}
+.renewed__sectiontwopone {
+  font-size: 1em;
+  font-weight: 400;
+  font-family: sans-serif;
+  line-height: 20px;
+  width: 70%;
+
+  font-weight: bold;
+}
+.renewed__sectiontwoptwo,
+.renewed__sectiontwopthree {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: serif;
+  margin-top: 10px;
+}
+/*the product section styling*/
+.theProductSection {
+  margin-top: 25px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.productImgDiv {
+  width: 80%;
+
+  height: 60%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.productImg {
+  width: 20em;
+  height: 17em;
+  text-align: center;
+  margin-left: 35px;
+  transition: transform 500ms;
+}
+.leftArr {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  cursor: pointer;
+  align-self: flex-start;
+  position: absolute;
+  margin-top: 8em;
+}
+.rightArr {
+  position: absolute;
+  margin-top: 8em;
+  margin-left: 10px;
+
+  align-self: flex-end;
+  width: 20px;
+  height: 20px;
+  z-index: 20;
+  background-color: white;
+  align-self: center;
+  margin-left: 95%;
+  cursor: pointer;
+}
+.productImgDivReal {
+  position: absolute;
+}
+/*the article style*/
+.production__article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 15rem;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1s, transform 1s;
+}
+.production__articlehthree {
+  font-size: 1.9em;
+  font-family: serif;
+  color: rgb(49, 14, 45);
+}
+.production__articleparagrap {
+  font-size: 1em;
+  line-height: 25px;
+  font-family: sans-serif;
+  width: 90%;
+  text-indent: 10px;
+  align-self: center;
+  color: rgb(49, 14, 45);
+}
+
+.sectioarticle {
+  opacity: 0;
+  transform: translateY(5rem);
+}
+.aboutus__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  height: 10rem;
+  width: 100%;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1s, transform 1s;
+}
+.aboutus__sectionp {
+  font-size: 1.1em;
+  width: 100%;
+  line-height: 30px;
+  font-family: sans-serif;
+  color: rgb(49, 14, 45);
+  text-align: center;
+}
+
+.topscrolling {
+  text-indent: 20px;
+  font-family: serif;
+  font-weight: 500;
+}
+.topscrollingbutton {
+  width: 75px;
+  background-color: rgb(49, 14, 45);
+  color: rgb(214, 125, 9);
+  font-weight: 800;
+  cursor: pointer;
+  border: none;
+}
+.topscrollingbutton:hover {
+  background-color: rgb(214, 125, 9);
+  color: rgb(49, 14, 45);
+}
+.endingFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.endinfooterdiv {
+  margin-left: 70px;
+  color: rgb(49, 14, 45);
+}
+.imgfooter {
+  color: rgb(49, 14, 45);
+  background-color: rgb(49, 14, 45);
+  height: 30px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 399px) {
+  /* Real stling starts here*/
+  /* nav styling*/
+  .regulatorDiv {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Renewedcrown__nav {
+    height: 3.5em;
+  }
+  .Renewedcrown__navheadtwo {
+    margin-left: 0.3em;
+    font-size: 1.8em;
+  }
+  .headerhid {
+    margin-left: 70%;
+
+    width: 25px;
+  }
+
+  /*THE MENU TAB SECTION STYLING*/
+  .menutab {
+    margin-left: 30%;
+
+    width: 70%;
+    height: 80vh;
+  }
+
+  .asideli {
+    line-height: 70px;
+
+    font-size: 1.3em;
+  }
+  /* header styling starts here*/
+
+  .Renewedcrown__leaderwebsitedesign--headerdiv {
+    width: 100vw;
+  }
+  .Renewedcrown__leaderwebsitedesign--headerp {
+    color: rgb(250, 6, 6);
+
+    margin-top: -8em;
+  }
+  .Renewedcrown__leaderwebsitedesign--headerhone {
+    font-size: 2.3em;
+
+    margin-top: 20px;
+  }
+
+  /*the form styling starts here*/
+  .totalSection {
+    width: 80vw;
+
+    height: 90vh;
+
+    margin-left: 2em;
+  }
+  .formsection__One {
+    width: 80vw;
+
+    height: 90vh;
+  }
+
+  .formsectionlabel {
+    font-size: 1em;
+  }
+
+  .formsectionlabelinput {
+    height: 2em;
+
+    border: 1px solid rgb(214, 125, 9);
+  }
+
+  .interestDiv {
+    margin-top: 10px;
+  }
+  .formSection__Interest {
+    font-size: 14px;
+  }
+
+  .formP {
+    font-size: 14px;
+  }
+
+  .signupandlogin__section {
+    margin-top: 0.5em;
+  }
+  .signup__button,
+  .signin__button {
+    width: 100px;
+    height: 40px;
+
+    font-size: 14px;
+  }
+  .signup__button:hover {
+    background-color: rgb(49, 14, 45);
+    color: rgb(248, 201, 10);
+  }
+  .signin__button :hover {
+    background-color: rgb(49, 14, 45);
+    color: rgb(248, 201, 10);
+  }
+  /*the sign in content styling is here*/
+  .formsection__Onedivtwo {
+    width: 80vw;
+    height: 90%;
+  }
+
+  .signin__sectionemail {
+    font-size: 1.3em;
+  }
+
+  .formsectionlabelinputtwo {
+    height: 3em;
+    width: 90%;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: -5px;
+  }
+
+  .goback,
+  .formP {
+    margin-left: 1em;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .gobackhere,
+  .formPspan {
+    text-decoration: underline;
+    color: rgb(214, 125, 9);
+    cursor: pointer;
+  }
+  .formpspantwo {
+    margin-left: 0;
+  }
+  /* sectiontwo styling starts here*/
+  .renewed__sectiontwo {
+    height: 100vh;
+  }
+
+  .renewed__sectiontwoh3 {
+    height: 20%;
+    font-size: 1.5em;
+  }
+
+  .renewed__sectiontwopone {
+    font-size: 1em;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 30px;
+    width: 80%;
+    height: 40%;
+
+    font-weight: bold;
+  }
+  .renewed__sectiontwoptwo,
+  .renewed__sectiontwopthree {
+    font-size: 1.3em;
+
+    height: 20%;
+  }
+  /*the product section styling*/
+  .theProductSection {
+    margin-top: 5px;
+    height: 120vh;
+  }
+  .productImgDiv {
+    width: 80%;
+
+    height: 40%;
+    margin-left: -40px;
+  }
+
+  .productImg {
+    width: 20em;
+    height: 17em;
+    text-align: center;
+    margin-left: 35px;
+    transition: transform 500ms;
+  }
+  .leftArr {
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+  }
+  .rightArr {
+    margin-top: 8em;
+    margin-left: 20px;
+
+    width: 20px;
+    height: 20px;
+
+    margin-left: 90%;
+  }
+
+  /*the article style*/
+  .production__article {
+    height: 25em;
+  }
+  .production__articlehthree {
+    font-size: 1.5em;
+  }
+
+  .sectioarticle {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  .aboutus__section {
+    margin-top: -50px;
+    height: 15rem;
+  }
+
+  .endinfooterdiv {
+    margin-left: 30px;
+    color: rgb(49, 14, 45);
+  }
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 400px) and (max-device-width: 499px) {
+  /* Real stling starts here*/
+  /* nav styling*/
+  .regulatorDiv {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Renewedcrown__nav {
+    height: 3.5em;
+  }
+  .Renewedcrown__navheadtwo {
+    margin-left: 0.3em;
+    font-size: 1.8em;
+  }
+  .headerhid {
+    margin-left: 70%;
+
+    width: 25px;
+  }
+
+  /*THE MENU TAB SECTION STYLING*/
+  .menutab {
+    margin-left: 30%;
+
+    width: 70%;
+    height: 80vh;
+  }
+
+  .asideli {
+    line-height: 70px;
+
+    font-size: 1.3em;
+  }
+  /* header styling starts here*/
+
+  .Renewedcrown__leaderwebsitedesign--headerdiv {
+    width: 100vw;
+  }
+  .Renewedcrown__leaderwebsitedesign--headerp {
+    color: rgb(250, 6, 6);
+
+    margin-top: -8em;
+  }
+  .Renewedcrown__leaderwebsitedesign--headerhone {
+    font-size: 2.3em;
+
+    margin-top: 20px;
+  }
+
+  /*the form styling starts here*/
+  .totalSection {
+    width: 80vw;
+
+    height: 80vh;
+
+    margin-left: 2em;
+  }
+  .formsection__One {
+    width: 80vw;
+
+    height: 80vh;
+  }
+
+  .formsectionlabel {
+    font-size: 1em;
+  }
+
+  .formsectionlabelinput {
+    height: 2em;
+
+    border: 1px solid rgb(214, 125, 9);
+  }
+
+  .interestDiv {
+    margin-top: 10px;
+  }
+  .formSection__Interest {
+    font-size: 14px;
+  }
+
+  .formP {
+    font-size: 14px;
+  }
+
+  .signupandlogin__section {
+    margin-top: 0.5em;
+  }
+  .signup__button,
+  .signin__button {
+    width: 100px;
+    height: 40px;
+
+    font-size: 14px;
+  }
+  .signup__button:hover {
+    background-color: rgb(49, 14, 45);
+    color: rgb(248, 201, 10);
+  }
+  .signin__button :hover {
+    background-color: rgb(49, 14, 45);
+    color: rgb(248, 201, 10);
+  }
+  /*the sign in content styling is here*/
+  .formsection__Onedivtwo {
+    width: 80vw;
+    height: 90%;
+  }
+
+  .signin__sectionemail {
+    font-size: 1.3em;
+  }
+
+  .formsectionlabelinputtwo {
+    height: 3em;
+    width: 90%;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: -5px;
+  }
+
+  .goback,
+  .formP {
+    margin-left: 1em;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .gobackhere,
+  .formPspan {
+    text-decoration: underline;
+    color: rgb(214, 125, 9);
+    cursor: pointer;
+  }
+  .formpspantwo {
+    margin-left: 0;
+  }
+  /* sectiontwo styling starts here*/
+  .renewed__sectiontwo {
+    height: 80vh;
+  }
+
+  .renewed__sectiontwoh3 {
+    height: 20%;
+    font-size: 1.5em;
+  }
+
+  .renewed__sectiontwopone {
+    font-size: 1em;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 30px;
+    width: 80%;
+    height: 40%;
+
+    font-weight: bold;
+  }
+  .renewed__sectiontwoptwo,
+  .renewed__sectiontwopthree {
+    font-size: 1.3em;
+
+    height: 20%;
+  }
+  /*the product section styling*/
+  .theProductSection {
+    margin-top: 5px;
+    height: 100vh;
+  }
+  .productImgDiv {
+    width: 80%;
+
+    height: 40%;
+    margin-left: -40px;
+  }
+
+  .productImg {
+    width: 20em;
+    height: 17em;
+    text-align: center;
+    margin-left: 35px;
+    transition: transform 500ms;
+  }
+  .leftArr {
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+  }
+  .rightArr {
+    margin-top: 8em;
+    margin-left: 20px;
+
+    width: 20px;
+    height: 20px;
+
+    margin-left: 90%;
+  }
+
+  /*the article style*/
+  .production__article {
+    height: 25em;
+  }
+  .production__articlehthree {
+    font-size: 1.5em;
+  }
+
+  .sectioarticle {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  .aboutus__section {
+    margin-top: -120px;
+    height: 15rem;
+  }
+
+  .endinfooterdiv {
+    margin-left: 30px;
+    color: rgb(49, 14, 45);
+  }
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-device-width: 500px) and (max-device-width: 599px) {
+  /* Real stling starts here*/
+  /* nav styling*/
+  .regulatorDiv {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Renewedcrown__nav {
+    height: 4em;
+  }
+  .Renewedcrown__navheadtwo {
+    margin-left: 0.7em;
+    font-size: 2.5em;
+  }
+  .headerhid {
+    margin-left: 70%;
+
+    width: 35px;
+  }
+
+  /*THE MENU TAB SECTION STYLING*/
+  .menutab {
+    margin-left: 40%;
+
+    width: 70%;
+    height: 70vh;
+  }
+
+  .asideli {
+    line-height: 90px;
+
+    font-size: 1.5em;
+  }
+  /* header styling starts here*/
+
+  .Renewedcrown__leaderwebsitedesign--headerdiv {
+    width: 100vw;
+    margin-top: 20px;
+  }
+  .Renewedcrown__leaderwebsitedesign--headerp {
+    margin-top: -10em;
+    font-size: 1.5em;
+  }
+  .Renewedcrown__leaderwebsitedesign--headerhone {
+    font-size: 2.5em;
+
+    margin-top: 20px;
+  }
+
+  /*the form styling starts here*/
+  .totalSection {
+    width: 80vw;
+    height: 74vh;
+    margin-left: 2em;
+  }
+  .formsection__One {
+    width: 80vw;
+    height: 74vh;
+  }
+
+  .formsectionlabel {
+    font-size: 1em;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .formsectionlabelinput {
+    height: 2.5em;
+    text-align: center;
+
+    width: 90%;
+    align-self: center;
+  }
+
+  .interestDiv {
+    margin-top: 10px;
+    margin-left: 0.8em;
+  }
+  .formSection__Interest {
+    font-size: 16px;
+    text-align: center;
+    margin-left: 0.8em;
+  }
+
+  .formP {
+    margin-left: 0.8em;
+    margin-top: -2em;
+  }
+
+  .signup__button,
+  .signin__button {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 0.8em;
+  }
+  .signup__button--two:hover {
+    background-color: rgb(49, 14, 45);
+    color: rgb(248, 201, 10);
+    cursor: pointer;
+  }
+  .signin__button--two :hover {
+    background-color: rgb(248, 201, 10);
+    color: rgb(49, 14, 45);
+    cursor: pointer;
+  }
+  /*the sign in content styling is here*/
+
+  .signin__sectionemail {
+    font-size: 1.5em;
+  }
+  .goback,
+  .formP {
+    margin-left: 1em;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .gobackhere,
+  .formpspantwo {
+    margin-left: 0.8em;
+    margin-top: 1em;
+  }
+  /* sectiontwo styling starts here*/
+  .renewed__sectiontwo {
+    height: 50vh;
+  }
+
+  .renewed__sectiontwoh3 {
+    height: 20%;
+    font-size: 1.5em;
+  }
+
+  .renewed__sectiontwopone {
+    font-size: 1em;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 30px;
+    width: 80%;
+    height: 40%;
+
+    font-weight: bold;
+  }
+  .renewed__sectiontwoptwo,
+  .renewed__sectiontwopthree {
+    font-size: 1.3em;
+
+    height: 20%;
+  }
+  /*the product section styling*/
+  .theProductSection {
+    margin-top: 5px;
+    height: 100vh;
+  }
+  .productImgDiv {
+    width: 60%;
+  }
+
+  /*the article style*/
+  .production__article {
+    height: 25em;
+  }
+  .production__articlehthree {
+    font-size: 1.7em;
+  }
+
+  .aboutus__section {
+    margin-top: -80px;
+    height: 15rem;
+  }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 319px) {
+}
+@media only screen and (min-device-width: 600px) and (max-device-width: 699px) {
+  /* Real stling starts here*/
+  /* nav styling*/
+  .regulatorDiv {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Renewedcrown__nav {
+    height: 3.5em;
+  }
+  .Renewedcrown__navheadtwo {
+    margin-left: 0.3em;
+    font-size: 1.8em;
+  }
+  .headerhid {
+    margin-left: 70%;
+
+    width: 25px;
+  }
+
+  /*THE MENU TAB SECTION STYLING*/
+  .menutab {
+    margin-left: 30%;
+
+    width: 70%;
+    height: 80vh;
+  }
+
+  .asideli {
+    line-height: 70px;
+
+    font-size: 1.3em;
+  }
+  /* header styling starts here*/
+
+  .Renewedcrown__leaderwebsitedesign--headerdiv {
+    width: 100vw;
+  }
+  .Renewedcrown__leaderwebsitedesign--headerp {
+    color: rgb(250, 6, 6);
+
+    margin-top: -8em;
+  }
+  .Renewedcrown__leaderwebsitedesign--headerhone {
+    font-size: 2.3em;
+
+    margin-top: 20px;
+  }
+
+  /*the form styling starts here*/
+  .totalSection {
+    width: 80vw;
+
+    height: 90vh;
+
+    margin-left: 2em;
+  }
+  .formsection__One {
+    width: 80vw;
+
+    height: 90vh;
+  }
+
+  .formsectionlabel {
+    font-size: 1em;
+  }
+
+  .formsectionlabelinput {
+    height: 2em;
+
+    border: 1px solid rgb(214, 125, 9);
+  }
+
+  .interestDiv {
+    margin-top: 10px;
+  }
+  .formSection__Interest {
+    font-size: 14px;
+  }
+
+  .formP {
+    font-size: 14px;
+  }
+
+  .signupandlogin__section {
+    margin-top: 0.5em;
+  }
+  .signup__button,
+  .signin__button {
+    width: 100px;
+    height: 40px;
+
+    font-size: 14px;
+  }
+  .signup__button:hover {
+    background-color: rgb(49, 14, 45);
+    color: rgb(248, 201, 10);
+  }
+  .signin__button :hover {
+    background-color: rgb(49, 14, 45);
+    color: rgb(248, 201, 10);
+  }
+  /*the sign in content styling is here*/
+  .formsection__Onedivtwo {
+    width: 80vw;
+    height: 90%;
+  }
+
+  .signin__sectionemail {
+    font-size: 1.3em;
+  }
+
+  .formsectionlabelinputtwo {
+    height: 3em;
+    width: 90%;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: -5px;
+  }
+
+  .goback,
+  .formP {
+    margin-left: 1em;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .gobackhere,
+  .formPspan {
+    text-decoration: underline;
+    color: rgb(214, 125, 9);
+    cursor: pointer;
+  }
+  .formpspantwo {
+    margin-left: 0;
+  }
+  /* sectiontwo styling starts here*/
+  .renewed__sectiontwo {
+    height: 100vh;
+  }
+
+  .renewed__sectiontwoh3 {
+    height: 20%;
+    font-size: 1.5em;
+  }
+
+  .renewed__sectiontwopone {
+    font-size: 1em;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 30px;
+    width: 80%;
+    height: 40%;
+
+    font-weight: bold;
+  }
+  .renewed__sectiontwoptwo,
+  .renewed__sectiontwopthree {
+    font-size: 1.3em;
+
+    height: 20%;
+  }
+  /*the product section styling*/
+  .theProductSection {
+    margin-top: 5px;
+    height: 120vh;
+  }
+  .productImgDiv {
+    width: 80%;
+
+    height: 40%;
+    margin-left: -40px;
+  }
+
+  .productImg {
+    width: 20em;
+    height: 17em;
+    text-align: center;
+    margin-left: 35px;
+    transition: transform 500ms;
+  }
+  .leftArr {
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+  }
+  .rightArr {
+    margin-top: 8em;
+    margin-left: 20px;
+
+    width: 20px;
+    height: 20px;
+
+    margin-left: 90%;
+  }
+
+  /*the article style*/
+  .production__article {
+    height: 25em;
+  }
+  .production__articlehthree {
+    font-size: 1.5em;
+  }
+
+  .sectioarticle {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  .aboutus__section {
+    margin-top: -50px;
+    height: 15rem;
+  }
+
+  .endinfooterdiv {
+    margin-left: 30px;
+    color: rgb(49, 14, 45);
+  }
+}
+@media only screen and (min-device-width: 700px) and (max-device-width: 799px) {
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 899px) {
+}
+@media only screen and (min-device-width: 900px) and (max-device-width: 999px) {
+}
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1099px) {
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Real stling starts here*/
+  /* nav styling*/
+  .regulatorDiv {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Renewedcrown__nav {
+    height: 3.5em;
+  }
+  .Renewedcrown__navheadtwo {
+    margin-left: 0.3em;
+    font-size: 1.8em;
+  }
+  .headerhid {
+    margin-left: 70%;
+
+    width: 25px;
+  }
+
+  /*THE MENU TAB SECTION STYLING*/
+  .menutab {
+    margin-left: 30%;
+
+    width: 70%;
+    height: 80vh;
+  }
+
+  .asideli {
+    line-height: 70px;
+
+    font-size: 1.3em;
+  }
+  /* header styling starts here*/
+
+  .Renewedcrown__leaderwebsitedesign--headerdiv {
+    width: 100vw;
+  }
+  .Renewedcrown__leaderwebsitedesign--headerp {
+    color: rgb(250, 6, 6);
+
+    margin-top: -8em;
+  }
+  .Renewedcrown__leaderwebsitedesign--headerhone {
+    font-size: 2.3em;
+
+    margin-top: 20px;
+  }
+
+  /*the form styling starts here*/
+  .totalSection {
+    width: 80vw;
+
+    height: 90vh;
+
+    margin-left: 2em;
+  }
+  .formsection__One {
+    width: 80vw;
+
+    height: 90vh;
+  }
+
+  .formsectionlabel {
+    font-size: 1em;
+  }
+
+  .formsectionlabelinput {
+    height: 2em;
+
+    border: 1px solid rgb(214, 125, 9);
+  }
+
+  .interestDiv {
+    margin-top: 10px;
+  }
+  .formSection__Interest {
+    font-size: 14px;
+  }
+
+  .formP {
+    font-size: 14px;
+  }
+
+  .signupandlogin__section {
+    margin-top: 0.5em;
+  }
+  .signup__button,
+  .signin__button {
+    width: 100px;
+    height: 40px;
+
+    font-size: 14px;
+  }
+  .signup__button:hover {
+    background-color: rgb(49, 14, 45);
+    color: rgb(248, 201, 10);
+  }
+  .signin__button :hover {
+    background-color: rgb(49, 14, 45);
+    color: rgb(248, 201, 10);
+  }
+  /*the sign in content styling is here*/
+  .formsection__Onedivtwo {
+    width: 80vw;
+    height: 90%;
+  }
+
+  .signin__sectionemail {
+    font-size: 1.3em;
+  }
+
+  .formsectionlabelinputtwo {
+    height: 3em;
+    width: 90%;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: -5px;
+  }
+
+  .goback,
+  .formP {
+    margin-left: 1em;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .gobackhere,
+  .formPspan {
+    text-decoration: underline;
+    color: rgb(214, 125, 9);
+    cursor: pointer;
+  }
+  .formpspantwo {
+    margin-left: 0;
+  }
+  /* sectiontwo styling starts here*/
+  .renewed__sectiontwo {
+    height: 100vh;
+  }
+
+  .renewed__sectiontwoh3 {
+    height: 20%;
+    font-size: 1.5em;
+  }
+
+  .renewed__sectiontwopone {
+    font-size: 1em;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 30px;
+    width: 80%;
+    height: 40%;
+
+    font-weight: bold;
+  }
+  .renewed__sectiontwoptwo,
+  .renewed__sectiontwopthree {
+    font-size: 1.3em;
+
+    height: 20%;
+  }
+  /*the product section styling*/
+  .theProductSection {
+    margin-top: 5px;
+    height: 120vh;
+  }
+  .productImgDiv {
+    width: 80%;
+
+    height: 40%;
+    margin-left: -40px;
+  }
+
+  .productImg {
+    width: 20em;
+    height: 17em;
+    text-align: center;
+    margin-left: 35px;
+    transition: transform 500ms;
+  }
+  .leftArr {
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+  }
+  .rightArr {
+    margin-top: 8em;
+    margin-left: 20px;
+
+    width: 20px;
+    height: 20px;
+
+    margin-left: 90%;
+  }
+
+  /*the article style*/
+  .production__article {
+    height: 25em;
+  }
+  .production__articlehthree {
+    font-size: 1.5em;
+  }
+
+  .sectioarticle {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  .aboutus__section {
+    margin-top: -50px;
+    height: 15rem;
+  }
+
+  .endinfooterdiv {
+    margin-left: 30px;
+    color: rgb(49, 14, 45);
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+
+/* iPad 3 (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (min-resolution: 192dpi) {
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+}
+
+/* Retina displays ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi) {
+}
